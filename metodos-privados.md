@@ -1,0 +1,7 @@
+Quando se trata de testar métodos privados, pode surgir um dilema, já que esses métodos não são acessíveis externamente e, portanto, não podem ser testados diretamente pelo código de teste. No entanto, muitas pessoas desenvolvedoras concordam que, se um método privado é complexo o suficiente para merecer um teste unitário separado, talvez seja um sinal de que ele deveria ser refatorado em métodos menores ou até mesmo tornados públicos.
+
+Se, mesmo assim, for necessário testar um método privado, você pode fazê-lo indiretamente através de métodos públicos que o chamam. Outra possibilidade é utilizar `Reflections` para testar métodos privados. Essa é uma técnica avançada que permite acessar e invocar métodos privados, campos e outras informações de uma classe em tempo de execução. 
+
+Embora seja possível usar Reflections para esse fim, é importante ter em mente que essa abordagem tem algumas desvantagens, como tornar os testes mais frágeis, já que eles dependem da estrutura interna da classe e podem falhar se essa estrutura mudar.
+
+Para saber mais sobre testes em métodos privados você pode acessar o artigo da Microsoft na sessão [“Validar métodos privados por métodos públicos de teste de unidade”](https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices#validate-private-methods-by-unit-testing-public-methods) e também pode consultar a [documentação sobre Reflections](https://learn.microsoft.com/pt-br/dotnet/framework/reflection-and-codedom/reflection).
