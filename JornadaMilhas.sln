@@ -10,12 +10,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Informacoes", "Informacoes", "{A744ED61-E53F-4ADA-A993-D55C51F8D8EB}"
 	ProjectSection(SolutionItems) = preProject
 		Asserts.md = Asserts.md
+		Boas-Praticas,md.txt = Boas-Praticas,md.txt
+		Bogus.md = Bogus.md
 		CasoDeTeste.md = CasoDeTeste.md
 		cobertura-de-testes.md = cobertura-de-testes.md
 		metodos-privados.md = metodos-privados.md
 		NomenclaturaDeTeste.md = NomenclaturaDeTeste.md
 		NotacoesXUnit.md = NotacoesXUnit.md
 		Padrao-testes.md = Padrao-testes.md
+		Referencias.md = Referencias.md
 		TDD.md = TDD.md
 	EndProjectSection
 EndProject
